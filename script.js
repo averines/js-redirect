@@ -16,11 +16,11 @@ paramsString.map(param =>  {
 
 switch (params.ref) {
   case '111': 
-    window.location.href = 'https://yandex.ru/search/?lr=213&text=111'
+    window.location.href = 'https://yandex.ru/search/?lr=213&text=первый'
     // window.open('https://ya.ru/', '_blank') // открыть в новой вкладке
 
    case '222':
-    window.location.href = 'https://yandex.ru/search/?lr=213&text=222'
+    window.location.href = 'https://yandex.ru/search/?lr=213&text=второй'
 
   default:
     console.log( 'указанный параметр ref не известен' )
